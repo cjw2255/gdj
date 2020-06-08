@@ -4,11 +4,11 @@
   <!--指定特定数据库的jdbc驱动jar包的位置-->
    <classPathEntry location="D:\apache-maven-3.6.3\myresp\mysql\mysql-connector-java\8.0.12\mysql-connector-java-8.0.12.jar"/>
   <context id="context1" >
-    <jdbcConnection driverClass="com.mysql.cj.jdbc.Driver" connectionURL="jdbc:mysql://localhost:3306/gdj?characterEncoding=utf8&amp;useSSL=false&amp;serverTimezone=UTC&amp;rewriteBatchedStatements=true&amp;nullCatalogMeansCurrent=true" userId="root" password="12345678" />
+    <jdbcConnection driverClass="com.mysql.cj.jdbc.Driver" connectionURL="jdbc:mysql://localhost:3306/gdj?characterEncoding=utf8&amp;useSSL=false&amp;serverTimezone=UTC&amp;rewriteBatchedStatements=true&amp;nullCatalogMeansCurrent=true" userId="root" password="123456789" />
     <javaModelGenerator targetPackage="com.woniu.gdj.entity" targetProject="src/main/java" ></javaModelGenerator>
     <sqlMapGenerator targetPackage="com.woniu.gdj.mapper" targetProject="src/main/java" ></sqlMapGenerator>
     <javaClientGenerator targetPackage="com.woniu.gdj.mapper" targetProject="src/main/java" type="XMLMAPPER" />
-    <table schema="" tableName="bannermanager" ></table>
+ <!--   <table schema="" tableName="bannermanager" ></table>
     <table schema="" tableName="cashlog" ></table>
     <table schema="" tableName="checkentry" ></table>
     <table schema="" tableName="city" ></table>
@@ -46,9 +46,9 @@
     <table schema="" tableName="usercoupon" ></table>
     <table schema="" tableName="userforder" ></table>
     <table schema="" tableName="userinfo" ></table>
-    <table schema="" tableName="usrrole" ></table>
+    <table schema="" tableName="usrrole" ></table>-->
     <table schema="" tableName="ware" ></table>
-    <table schema="" tableName="wareactivity" ></table>
+   <!-- <table schema="" tableName="wareactivity" ></table>
     <table schema="" tableName="wareactivitytype" ></table>
     <table schema="" tableName="warecart" ></table>
     <table schema="" tableName="wareclassificationtype" ></table>
@@ -57,7 +57,7 @@
     <table schema="" tableName="wareinventory" ></table>
     <table schema="" tableName="wareprice" ></table>
     <table schema="" tableName="warereport" ></table>
-    <table schema="" tableName="warespec" ></table>
+    <table schema="" tableName="warespec" ></table>-->
 
 
   </context>
